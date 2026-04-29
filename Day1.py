@@ -1,0 +1,26 @@
+import math
+name="Shravya"
+roll_no=38
+print("Uppercase:"+name.upper())
+print("Lowercase:"+name.lower())
+print("length:",str(len(name)))
+print("Reversed:"+name[::-1])
+print("Absolute:",abs(-5))
+print("squareroot:",math.sqrt(36))
+print("maximum:",max(36,24))
+print("Minimum:",min(2,4))
+print("power:",math.pow(2,4))
+print("floor:",math.floor(3.5))
+print("ceil:",math.ceil(3.5))
+frinds=["sana","sam","john","pri"]
+frinds.append("sanvi")
+print("append:",frinds)
+frinds.insert(2,"khushi")
+print("insert:",frinds)
+frinds.remove("john")
+print("remove:",frinds)
+print("pop:",frinds.pop())
+n=[2,4,6,9,8]
+print("n:",n)
+tuples=(2,3,6)
+print("tuple:",tuples)
